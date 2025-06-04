@@ -1,0 +1,26 @@
+SECTION 2 - PROMPT 1:
+Error Detection Practice for beginner-level task manager script
+
+AI RESPONSE:
+The main errors identified were a typo (tas instead of tasks), wrong variable in a loop (task instead of tasks), and incorrect function call (list_task() instead of list_tasks()). AI added insightful usability tips like off-by-one indexing confusion and noted missing input validation and docstrings as readability concerns. The debugging approach mirrored course techniques focusing on variable naming and logic checks.
+
+COURSE CONSTRAINT CHECK:
+All issues and suggestions adhered to beginner course constraints, no advanced debugging or language features introduced.
+
+SECTION 2 - PROMPT 2:
+Fix & Manual Rewrite of the broken task manager code with beginner techniques
+
+AI RESPONSE:
+Provided a clean, corrected script that fixed the variable name typos, corrected function calls, and added inline comments explaining each fix. The code uses basic list operations and control flow suitable for a beginner course. Doctests were included for simple functional validation. The rewritten version was clear, simple, and suitable for educational purposes.
+
+COURSE CONSTRAINT CHECK:
+Code strictly used beginner Python features taught in Week 1 and Week 3; no advanced concepts like classes, advanced exception handling, or external modules beyond doctest. Some minor formatting edits made to match course style.
+
+SECTION 2 - PROMPT 3:
+Testing and Course Reference explanation
+
+AI RESPONSE:
+Manual and doctest-based testing was demonstrated to verify correctness after fixes. Course references emphasized foundational debugging skills from Week 1 and testing practices from Week 3, showing how systematic error detection and validation were applied. The approach focused on simplicity, clarity, and educational value for beginners.
+
+COURSE CONSTRAINT CHECK:
+Testing approach and error handling fit well within course scope; no modification need
