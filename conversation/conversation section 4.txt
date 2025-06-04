@@ -1,0 +1,35 @@
+SECTION 4 - PROMPT 1:
+I implemented a task manager using manual Python coding, focusing on weeks 3 to 6 concepts. How should I structure the menu display and user input?
+
+AI RESPONSE:
+Use simple print() statements for the menu, following Week 3 formatting guidelines. For user input, apply basic validation using conditional checks to ensure choices are within the allowed range (1-4), aligned with Week 6 practices.
+
+COURSE CONSTRAINT CHECK:
+Ensured suggestions avoided advanced input validation libraries; relied strictly on if/else conditions as taught in Week 6.
+
+SECTION 4 - PROMPT 2:
+How do I add tasks with attributes like name and priority, and list them effectively?
+
+AI RESPONSE:
+Create tasks as dictionaries containing keys such as "name" and "priority" (Week 5 concepts). Store these dictionaries in a list. For listing, iterate over the list using indexes and print each task’s details per Week 4 instructions.
+
+COURSE CONSTRAINT CHECK:
+Recommendations adapted to avoid complex data structures beyond dictionaries and lists, consistent with Weeks 4 and 5.
+
+SECTION 4 - PROMPT 3:
+What’s the best approach to safely remove a task by index from the list?
+
+AI RESPONSE:
+Use a try-except block to catch ValueError and IndexError when converting input to an integer and deleting the task from the list, per Week 6 error handling lessons.
+
+COURSE CONSTRAINT CHECK:
+Maintained basic exception handling without advanced features like custom exceptions or logging, as per Week 6 constraints.
+
+SECTION 4 - PROMPT 4:
+How should I structure the main program loop to tie everything together?
+
+AI RESPONSE:
+Implement a while True loop with control flow (if, elif, else) to call appropriate functions based on validated user input. Include a break condition to exit on user request, consistent with Week 5 loop and control flow topics.
+
+COURSE CONSTRAINT CHECK:
+Kept the loop structure simple and avoided multiprocessing or threading to adhere to Week 5 scope.
