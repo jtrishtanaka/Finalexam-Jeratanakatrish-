@@ -1,0 +1,53 @@
+SECTION 1 - PROMPT 1.1:
+Initial prompt and pseudocode for a CLI Task Manager program using basic Python concepts.
+
+AI RESPONSE:
+Outlined a clear problem restatement, inputs/outputs, and step-by-step pseudocode with functions:
+
+display_menu() for showing options
+
+add_task(task_list) to get user input and add a task dictionary
+
+list_tasks(task_list) to display tasks with indexes or show “No tasks available.”
+
+remove_task(task_list) using try/except to handle invalid indexes safely
+
+Main loop controlling menu navigation and input validation
+Included example walkthrough reflecting Weeks 1-6 concepts.
+
+COURSE CONSTRAINT CHECK:
+Kept strictly to basic Python features as per introductory course content; no advanced data structures or modules used. Followed Weeks 1-6 content scope exactly.
+
+SECTION 1 - PROMPT 1.2 (First Refinement):
+Refine pseudocode to add file validation and error handling for task file operations and menu input.
+
+AI RESPONSE:
+Added functions like load_tasks(filename) with file existence checks and error handling (try/except) for reading files safely.
+Introduced get_valid_menu_choice() with looped input validation ensuring only valid menu choices (1-4) are accepted, and non-integer inputs are caught.
+Warnings included for empty or corrupted files.
+
+COURSE CONSTRAINT CHECK:
+Implemented basic file I/O concepts consistent with Week 6 material; avoided any advanced file handling libraries or asynchronous code. Validation logic limited to simple loops and try/except.
+
+SECTION 1 - PROMPT 1.2 (Second Refinement):
+Further modularize pseudocode separating task actions and main loop clearly, following course content up to Week 10.
+
+AI RESPONSE:
+Modularized task functions add_task(), list_tasks(), and remove_task() with clear input prompts and validations.
+Main program loads tasks via load_tasks(), shows menu, and calls appropriate functions based on validated user choice in a while loop.
+Error handling included when removing tasks, and feedback messages are clear and user-friendly.
+
+COURSE CONSTRAINT CHECK:
+Stayed within Weeks 4-10 scope: used functions, loops, lists, dictionaries, and basic file handling. No advanced error propagation or design patterns used. Focused on readability and modular design as per course guidelines.
+
+SECTION 1 - PROMPT 1.3:
+Critical analysis of the refinements and how they improved the pseudocode.
+
+AI RESPONSE:
+The refinements enhanced robustness by adding error handling (try/except) and input validation, preventing program crashes from invalid user input or file errors (Week 6 concepts).
+Modularity improved maintainability and code clarity by separating concerns into reusable functions (Week 4 principles).
+Overall, the iterative approach reflected the 6-step problem-solving and computational thinking strategy from Week 2, turning a basic prototype into a practical, user-ready CLI application.
+
+COURSE CONSTRAINT CHECK:
+Analysis adhered to reflection standards in course rubrics; avoided discussing advanced concepts outside the course scope.
+
