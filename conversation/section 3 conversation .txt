@@ -1,0 +1,30 @@
+SECTION 3 - PROMPT 1:
+Debug & Refine WeatherWise API – Issue Identification Practice
+
+AI RESPONSE:
+Identified key issues include no input validation for the city parameter, use of a generic `except:` clause hiding specific error causes, and lack of nested error handling for JSON data extraction. These relate directly to course content from Weeks 6 to 8, emphasizing input validation, structured error handling with specific exceptions, and robust data parsing to prevent crashes or ambiguous failures.
+
+COURSE CONSTRAINT CHECK:
+All suggestions align with Weeks 6–8 course constraints. No advanced exception types or structures beyond basic try/except were suggested.
+
+---
+
+SECTION 3 - PROMPT 2:
+Function Refinement with Course Constraints
+
+AI RESPONSE:
+Provided a refined function `refined_safe_weather_data_fetch(city)` that uses basic input validation (`if not city`), a simulated list of valid cities for environment-independent testing, and a single generic try/except block to handle all errors simply. Included doctest examples for automated testing, reflecting Weeks 6–10 teachings on validation, error handling, and testing. Recommended minor improvements like stripping whitespace from input and catching `Exception` explicitly instead of bare except for slightly cleaner error handling.
+
+COURSE CONSTRAINT CHECK:
+Modifications to AI suggestions included restricting error handling to generic try/except blocks without advanced exception hierarchy or finally clauses, as per Week 8. Use of simulated data rather than real API calls respects constraints on course-appropriate complexity.
+
+---
+
+SECTION 3 - PROMPT 3:
+Comparison Analysis
+
+AI RESPONSE:
+Outlined two main similarities: input validation presence and a single try/except block handling errors simply. Highlighted two key differences: the ideal version uses live API calls with real JSON data, while the refined version uses simulated data, and error messages differ in method (print vs return strings). Connected the analysis to Week 8’s emphasis on generic exception handling. Suggested a future improvement per textbook Chapter 6: separating error reporting from logic by raising exceptions or using logging, enhancing modularity and maintainability.
+
+COURSE CONSTRAINT CHECK:
+Analysis remained fully within course scope; no suggestions requiring advanced error handling or structural changes beyond the course timeline were made.
